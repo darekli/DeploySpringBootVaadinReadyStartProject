@@ -4,6 +4,8 @@
 
 This is SpringBoot2 Vaadin Simple Start Project ready for Deploy in Heroku 
 
+Open the Heroku and start create your new project from there. You don't need jar or war file on this moment if you save your project on GitHub and gave a permition for Heroku to upload a project directly from GitHub.
+
 Remember about two things, it's very important:
 
 Add to application.properties, a sentence: vaadin.compatibilityMode = true
