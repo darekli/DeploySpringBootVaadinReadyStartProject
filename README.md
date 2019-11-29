@@ -8,3 +8,8 @@ Remember about two things, it's very important:
 
 Add to application.properties, a sentence: vaadin.compatibilityMode = true
 If you have any disable imports in your project inside java classes, remove it. You can use Crtl+Alt+O (Intellij) in every class.
+
+
+SpringBoot2 v.2.2.1
+Vaadin 14.0.14
+Maven 4.0.0
