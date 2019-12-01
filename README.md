@@ -15,3 +15,6 @@ If you have any disable imports in your project inside java classes, remove it. 
 SpringBoot2 v.2.2.1
 Vaadin 14.0.14
 Maven 4.0.0
+
+Is working only with HEROKU.
+Amazon AWS and Microsoft Azure - errors series 400
