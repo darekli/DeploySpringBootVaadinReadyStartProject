@@ -18,29 +18,30 @@ public class LoginView extends VerticalLayout implements BeforeEnterObserver {
     LoginForm login = new LoginForm();
 
     public LoginView() {
-        addClassName("login-view");
-        setSizeFull();
+     addClassName("login-view");
+     setSizeFull();
 
-        setJustifyContentMode(JustifyContentMode.CENTER);
-        setAlignItems(Alignment.CENTER);
+     setJustifyContentMode(JustifyContentMode.CENTER);
+     setAlignItems(Alignment.CENTER);
 
 
-        login.setAction("login");
-        //login.setAction("testView");
-        add(
-                new H1("Vaadi2n"),
-                login
-        );
+    login.setAction("login");
+     //login.setAction("testView");
+     add(
+             new H1("Vaadi2n"),
+             login
+     );
     }
 
     @Override
     public void beforeEnter(BeforeEnterEvent beforeEnterEvent) {
-        if(!beforeEnterEvent.getLocation()
-                .getQueryParameters()
-                .getParameters()
-                .getOrDefault("error", Collections.emptyList())
-                .isEmpty()){
-            login.setError(true);
-        }
+if(!beforeEnterEvent.getLocation()
+    .getQueryParameters()
+    .getParameters()
+    .getOrDefault("error", Collections.emptyList())
+    .isEmpty()){
+    login.setError(true);
+    }
     }
 }
+
